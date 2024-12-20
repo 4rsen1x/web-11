@@ -1,0 +1,41 @@
+ip: "127.0.0.1"
+port: 8081
+port_count: 8082
+port_query: 8083
+port_auth: 8084
+secret_key: "qwertyuiopasdfghjklzxcvbnm123456"
+api:
+  max_message_size: 32
+usecase:
+  default_message: "hello, world"
+  default_message_count: 0
+  default_message_query: "Hello, None!"
+
+db_count:
+  host:     "localhost"
+  port:     5432
+  user:     "postgres"
+  password: "1"
+  dbname:   "postgres"
+
+db_query:
+  host:     "localhost"
+  port:     5432
+  user:     "postgres"
+  password: "1"
+  dbname:   "postgres"
+
+db:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "1"
+  dbname: "postgres"
+
+
+db_auth:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "1"
+  dbname: "postgres"
